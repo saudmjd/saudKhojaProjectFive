@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/saudKhojaProjectFive/static/css/main.e10109ee.chunk.css",
+    "main.js": "/saudKhojaProjectFive/static/js/main.23632558.chunk.js",
+    "main.js.map": "/saudKhojaProjectFive/static/js/main.23632558.chunk.js.map",
+    "runtime-main.js": "/saudKhojaProjectFive/static/js/runtime-main.60217862.js",
+    "runtime-main.js.map": "/saudKhojaProjectFive/static/js/runtime-main.60217862.js.map",
+    "static/js/2.f1df4ebc.chunk.js": "/saudKhojaProjectFive/static/js/2.f1df4ebc.chunk.js",
+    "static/js/2.f1df4ebc.chunk.js.map": "/saudKhojaProjectFive/static/js/2.f1df4ebc.chunk.js.map",
+    "index.html": "/saudKhojaProjectFive/index.html",
+    "precache-manifest.af0f28d620748d99117844f87185e41b.js": "/saudKhojaProjectFive/precache-manifest.af0f28d620748d99117844f87185e41b.js",
+    "service-worker.js": "/saudKhojaProjectFive/service-worker.js",
+    "static/css/main.e10109ee.chunk.css.map": "/saudKhojaProjectFive/static/css/main.e10109ee.chunk.css.map",
+    "static/js/2.f1df4ebc.chunk.js.LICENSE.txt": "/saudKhojaProjectFive/static/js/2.f1df4ebc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.60217862.js",
+    "static/js/2.f1df4ebc.chunk.js",
+    "static/css/main.e10109ee.chunk.css",
+    "static/js/main.23632558.chunk.js"
+  ]
+}
