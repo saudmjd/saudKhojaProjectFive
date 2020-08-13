@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/saudKhojaProjectFive/static/css/main.d40cf0ee.chunk.css",
-    "main.js": "/saudKhojaProjectFive/static/js/main.dcf34ebf.chunk.js",
-    "main.js.map": "/saudKhojaProjectFive/static/js/main.dcf34ebf.chunk.js.map",
+    "main.js": "/saudKhojaProjectFive/static/js/main.723bcf53.chunk.js",
+    "main.js.map": "/saudKhojaProjectFive/static/js/main.723bcf53.chunk.js.map",
     "runtime-main.js": "/saudKhojaProjectFive/static/js/runtime-main.60217862.js",
     "runtime-main.js.map": "/saudKhojaProjectFive/static/js/runtime-main.60217862.js.map",
     "static/js/2.f1df4ebc.chunk.js": "/saudKhojaProjectFive/static/js/2.f1df4ebc.chunk.js",
     "static/js/2.f1df4ebc.chunk.js.map": "/saudKhojaProjectFive/static/js/2.f1df4ebc.chunk.js.map",
     "index.html": "/saudKhojaProjectFive/index.html",
-    "precache-manifest.fa77346d00e887d44235b808634afd3a.js": "/saudKhojaProjectFive/precache-manifest.fa77346d00e887d44235b808634afd3a.js",
+    "precache-manifest.fc7d26a2be930159c0d773b4ea7e1fca.js": "/saudKhojaProjectFive/precache-manifest.fc7d26a2be930159c0d773b4ea7e1fca.js",
     "service-worker.js": "/saudKhojaProjectFive/service-worker.js",
     "static/css/main.d40cf0ee.chunk.css.map": "/saudKhojaProjectFive/static/css/main.d40cf0ee.chunk.css.map",
     "static/js/2.f1df4ebc.chunk.js.LICENSE.txt": "/saudKhojaProjectFive/static/js/2.f1df4ebc.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.60217862.js",
     "static/js/2.f1df4ebc.chunk.js",
     "static/css/main.d40cf0ee.chunk.css",
-    "static/js/main.dcf34ebf.chunk.js"
+    "static/js/main.723bcf53.chunk.js"
   ]
 }
