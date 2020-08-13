@@ -16,7 +16,7 @@ class App extends Component {
   performSearch = (event, searchQuery) => { //or componentDidMount()??
     event.preventDefault();
     axios({
-      url: `http://api.giphy.com/v1/gifs/search`,
+      url: `//api.giphy.com/v1/gifs/search`,
       method: `GET`,
       responseType: `json`,
       params: {
