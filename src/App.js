@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import './App.css';
 import SearchBar from './SearchBar';
-import GifList from './GifList';
-
+import DisplayGifs from './DisplayGifs';
+import './App.css';
 
 class App extends Component {
 
@@ -14,33 +13,41 @@ class App extends Component {
     }
   }
 
-  performSearch(query = '') {
-    axios.get(`http://api.giphy.com/v1/gifs/search?api_key=vprTsokUFbIv0VBPjw5XYpUlAi2UfgtV&q=${query}&limit=50&offset=0&rating=g&lang=en`)
-      .then(res => {
-        this.setState({
-          gifs: res.data.data
-        });
+  performSearch = (event, searchQuery) => { //or componentDidMount()??
+    event.preventDefault();
+    axios({
+      url: `http://api.giphy.com/v1/gifs/search`,
+      method: `GET`,
+      responseType: `json`,
+      params: {
+        api_key: `eXvQjN8uvGbrhm7fuMlAGjG1deihdFcj`,
+        q: searchQuery,
+        limit: `100`,
+        rating: `g`,
+        lang:  `en`,
+        random_id: ``
+      }
+    }).then((response) => {
+      console.log(response); //.data.data.url?
+      response = response.data.data
+      this.setState({
+        gifs: response
       })
-      .catch(error => {
-        console.log('ERROR', error);
-      });
+    })
   }
 
   render() {
-    console.log(this.state.gifs)
+    //console.log(this.state.gifs)
     return (
-        <div className="App">
-          <div>
-            <SearchBar onSearch={this.performSearch}/> 
-          </div>
-
-          <div className="content">
-            <GifList data={this.state.gifs} />
-          </div>
+      <div className="App">
+        <div className="wrapper">
+          <SearchBar onSearch={this.performSearch} /> 
+          <DisplayGifs data={this.state.gifs} />
+          <footer>Powered By GIPHY</footer>
         </div>
+      </div>
     );
   }
 }
-
 
 export default App;
